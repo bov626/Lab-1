@@ -9,10 +9,11 @@ html, body{
     padding:20px;
     background-color:darkmagenta;
     display:flex;
+    justify-content:space-between;
 }
 h1{
     margin:0px;
-    padding:0px 850px 0px 0px ;
+   
 }
 ul{
     list-style:none;
@@ -44,4 +45,17 @@ ul li a{
 }
 p{
     margin:20px;
+}
+
+.blog-post{
+    margin:10px;
+    background-color:white;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid darkgray;
+}
+
+img{
+    float:left;
+    margin:0px 10px 10px 0px;
 }
